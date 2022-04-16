@@ -1,0 +1,55 @@
+import 'package:dating_app/Data/Database/Moor/Core/AppDatabase.dart';
+import 'package:dating_app/Data/Database/Moor/Tables/Onboardings.dart';
+import 'package:dating_app/Models/JsonSerializable/Api/from/feeds/FeedsRespJModel.dart';
+import 'package:dating_app/Models/JsonSerializable/Api/from/matches/DateMatchRespJModel.dart';
+import 'package:dating_app/Models/JsonSerializable/Api/from/matches/FeedsListRespJModel.dart';
+import 'package:dating_app/Models/JsonSerializable/Api/from/matches/MatchDecisionRespJModel.dart';
+import 'package:dating_app/Models/JsonSerializable/Api/from/users/CustomUserRespJModel.dart';
+import 'package:dating_app/Models/JsonSerializable/LoginRespModel.dart';
+import 'package:dating_app/UI/Presentation/FancyOB/page_model.dart';
+import 'package:dating_app/UI/Presentation/admin_drawer/home_drawer.dart';
+import 'package:flutter/material.dart';
+
+class NavigationData {
+  Widget selectedWidget;
+  bool isFromDashboard;
+  bool isFromTrigger;
+  int selectedId;
+  int selectedIndex;
+  String imagepath;
+  bool isImagepathUrl;
+  double imgWidth;
+  double imgHeight;
+  bool isInBackPressed;
+  bool isNew;
+  bool isFirstSyncRan;
+  bool isNetworkError;
+  bool isSyncingError;
+  bool isSelected;
+  bool isExpanded;
+  bool isDeviceConnected;
+  bool isAdded;
+  bool isSaved;
+  DateTime selectedDateTime;
+  List<PageModel> pageList;
+  bool isDarkMode;
+  LoginRespModel loginRespModel;
+  bool isInternetConnected;
+  bool isShow;
+  List<int> intList;
+
+  Hobbie hobbie;
+  bool isValid;
+  String message;
+  Onboarding onboarding;
+  DrawerIndex drawerIndex;
+  CustomUserRespJModel customUserRespJModel;
+  MatchDecisionRespJModel matchDecisionRespJModel;
+  List<DateMatchRespJModel> dateMatchRespJModelList;
+  Illness illness;
+  int current_index;
+  double position_double;
+  List<FeedsRespJModel> feedsRespJModelList;
+  List<MatchDecisionRespJModel> matchDecisionRespJModelList;
+  NavigationData() {}
+}

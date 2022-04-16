@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "121636820121",
+    "firebase_url": "https://dtnapp-99f49.firebaseio.com",
+    "project_id": "dtnapp-99f49",
+    "storage_bucket": "dtnapp-99f49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121636820121:android:801c02526e7c5e38c8d408",
+        "android_client_info": {
+          "package_name": "com.mydate.dating_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121636820121-vo50l1ou5hopm6kh5a0l6c44foo1k7pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mydate.dating_app",
+            "certificate_hash": "074eb85cc8767b04bb01c5d8b14771075694e899"
+          }
+        },
+        {
+          "client_id": "121636820121-j55fdg387qkpjpolc288ta8vqqsgh0gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjxt2BD_S-MTIpJ7uVmm-z5WAY2sD3cOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121636820121-j55fdg387qkpjpolc288ta8vqqsgh0gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
